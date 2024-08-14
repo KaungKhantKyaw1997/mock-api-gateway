@@ -1,0 +1,31 @@
+{
+  "name": "mock-api-gateway",
+  "version": "1.0.0",
+  "description": "A simple and configurable mock server for simulating API endpoints.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node startServer.js",
+    "dev": "nodemon startServer.js"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "API",
+    "testing",
+    "CRUD",
+    "authentication",
+    "pagination",
+    "search"
+  ],
+  "author": "Kaung Khant Kyaw",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4"
+  }
+}
