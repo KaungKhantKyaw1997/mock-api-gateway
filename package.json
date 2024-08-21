@@ -1,12 +1,13 @@
 {
   "name": "mock-api-gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and configurable mock server for simulating API endpoints.",
   "main": "src/index.js",
   "scripts": {
     "start": "node startServer.js",
     "dev": "nodemon startServer.js"
   },
+  "repository": "https://github.com/KaungKhantKyaw1997/mock-api-gateway.git",
   "keywords": [
     "mock",
     "server",
@@ -18,7 +19,7 @@
     "search"
   ],
   "author": "Kaung Khant Kyaw",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",
     "chalk": "^5.3.0",
